@@ -1,0 +1,1214 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Городская Наркоклиника</title>
+        <meta name="description"
+            content="Частная наркологическая клиника терапии и реабилитации от алкогольной и наркотической зависимости «Городская наркоклиника»">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="assets/img/favicon.ico">
+        <link rel="icon" type="image/png" href="assets/img/favicon-32x32.png">
+        <link rel="stylesheet" href="assets/css/build/swiper.css">
+        <link rel="stylesheet" href="assets/css/build/fancybox.min.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="preload" href="assets/js/main.js" as="script">
+        <link rel="preload" href="assets/css/build/swiper.css" as="style">
+        <link rel="preload" href="assets/css/build/fancybox.min.css" as="style">
+        <link rel="preload" href="assets/css/styles.css" as="style">
+        <link rel="preload" href="assets/img/sections/intro/doctor.png" as="image" fetchpriority="high"></head>
+
+<body>
+    <div class="page">
+        <header class="header">
+          <div class="header__desktop">
+            <div class="container">
+              <div class="header__wrapper">
+                <a class="header__logo logo" href="">
+                  <img class="logo__img" src="assets/img/logo.png" alt="Логотип Городская Наркоклиника">
+                  <span class="logo__text">Городская Наркоклиника</span>
+                </a>
+                <div class="header__contacts">
+                  <div class="header__flex">
+                    Круглосуточно, анонимно:
+                    <a class="header__phone" href="tel:89999999999">8 (999) 999-99-99</a>
+                    <a class="header__phone" href="tel:89999999999">8 (999) 999-99-99</a>
+                  </div>
+                  <div class="header__flex">
+                    Адрес call-центра:
+                    <div class="header__address">
+                      <button class="header__city-button popup-btn" data-path="cities">
+                        Новокузнецк,
+                      </button>
+                      <p class="header__street">ул. Красноармейская, д. 227</p>
+                    </div>
+                  </div>
+                  <div class="header__flex">
+                    Почта клиники:
+                    <a class="header__email" href="mailto:info@gor-narkoklinika.ru">info@gor-narkoklinika.ru</a>
+                  </div>
+                </div>
+                <div class="header__buttons">
+                  <button class="header__button button button--transparent button--small popup-btn" type="button"
+                    data-path="search">
+                    <svg class="header__icon" width="26" height="26" viewBox="0 0 26 26" xmlns="http://www.w3.org/2000/svg" aria-label="Поиск по сайту">
+                      <path
+                        d="M10.334 3.28047C9.87187 3.34649 9.12031 3.53438 8.66836 3.68672C6.35781 4.49414 4.49414 6.35781 3.68672 8.66836C3.34141 9.67383 3.27539 10.0953 3.27539 11.375C3.27539 12.2992 3.2957 12.5988 3.37187 12.9492C3.91523 15.4578 5.39805 17.4281 7.61719 18.6063C9.45039 19.5711 11.832 19.7793 13.843 19.1445C14.5336 18.9262 15.468 18.459 16.0418 18.0527L16.5191 17.7125L18.9871 20.1754C20.343 21.5312 21.5059 22.6637 21.5668 22.6941C21.6277 22.7246 21.8004 22.75 21.9477 22.75C22.4402 22.75 22.75 22.4402 22.75 21.9477C22.75 21.8004 22.7246 21.6277 22.6941 21.5668C22.6637 21.5059 21.5312 20.343 20.1754 18.9871L17.7125 16.5191L18.0527 16.0418C18.459 15.468 18.9262 14.5336 19.1445 13.843C19.6422 12.2586 19.627 10.3695 19.0988 8.78516C18.3117 6.42891 16.4582 4.52969 14.1426 3.70703C13.1879 3.37188 12.7258 3.29063 11.5527 3.27539C10.9687 3.26524 10.4203 3.27031 10.334 3.28047ZM12.4922 5.00703C13.3961 5.16953 14.3508 5.56563 15.077 6.07852C15.5441 6.40859 16.2855 7.14492 16.6258 7.61211C17.418 8.71914 17.8242 9.98867 17.8242 11.375C17.8242 13.1676 17.1641 14.7266 15.8793 15.9809C15.3258 16.5191 14.8992 16.8289 14.2898 17.1387C13.3859 17.6008 12.4211 17.8293 11.375 17.8293C10.3289 17.8293 9.36406 17.6008 8.46016 17.1387C7.85078 16.8289 7.42422 16.5191 6.8707 15.9809C5.58594 14.7266 4.92578 13.1676 4.92578 11.375C4.92578 9.58242 5.58594 8.02344 6.8707 6.76914C7.41914 6.23594 7.85078 5.92109 8.45508 5.61133C9.69922 4.97656 11.1262 4.76328 12.4922 5.00703Z"
+                        fill="currentColor" />
+                    </svg>
+                  </button>
+                  <button id="specialButton" class="header__button button button--transparent button--small" aria-label="Версия для слабовидящих">
+                    <svg class="header__icon" width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M15.3006 9C15.3006 10.7753 13.8227 12.2143 11.9995 12.2143C10.1764 12.2143 8.69837 10.7753 8.69837 9C8.69837 7.22475 10.1764 5.78571 11.9995 5.78571C13.8227 5.78571 15.3006 7.22475 15.3006 9Z"
+                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                      <path
+                        d="M12 1.5C7.07291 1.5 2.90218 4.65309 1.5 9C2.90216 13.3469 7.07291 16.5 12 16.5C16.927 16.5 21.0978 13.3469 22.5 9C21.0978 4.65312 16.927 1.5 12 1.5Z"
+                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </button>
+                  <div>
+                    <button class="header__button button button--transparent popup-btn" type="button" data-path="popup__call">
+                      Заказать услуги
+                    </button>
+                    <button class="header__button button popup-btn" type="button" data-path="popup__call">
+                      Вызвать врача
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="header__navigation main-navigation">
+              <nav class="main-navigation__wrapper">
+                <ul class="main-navigation__list">
+                  <li class="main-navigation__item submenu">
+                    <a class="main-navigation__link" href="">О нас</a>
+                    <ul class="main-navigation__submenu submenu__list">
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="">Врачи</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="">Лицензии и документы</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="">Блог</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="">Акции</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="">Фотогалерея</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="">Политика конфиденциальности</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="main-navigation__item submenu">
+                    <a class="main-navigation__link" href="">Вывод из запоя</a>
+                    <ul class="main-navigation__submenu submenu__list">
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="">Название услуги</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="">Название услуги</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="">Название услуги</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="">Название услуги</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="">Название услуги</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="">Внимание-внимание! Очень длинное название услуги</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="main-navigation__item submenu">
+                    <a class="main-navigation__link" href="">Нарколог на дом</a>
+                    <ul class="main-navigation__submenu submenu__list">
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="">Название услуги</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="">Название услуги</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="">Название услуги</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="">Название услуги</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="">Название услуги</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="">Внимание-внимание! Очень длинное название услуги</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="">Название услуги</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="">Название услуги</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="">Название услуги</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="">Название услуги</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="">Название услуги</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="main-navigation__item submenu">
+                    <a class="main-navigation__link" href="">Лечение алкоголизма</a>
+                    <ul class="main-navigation__submenu submenu__list">
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="">Название услуги</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="">Название услуги</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="">Название услуги</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="">Название услуги</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="">Название услуги</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="">Внимание-внимание! Очень длинное название услуги</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="main-navigation__item submenu">
+                    <a class="main-navigation__link" href="">Кодирование</a>
+                    <ul class="main-navigation__submenu submenu__list">
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="">Название услуги</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="">Название услуги</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="">Название услуги</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="">Название услуги</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="">Название услуги</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="">Внимание-внимание! Очень длинное название услуги</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="main-navigation__item">
+                    <a class="main-navigation__link" href="">Лечение наркомании</a>
+                  </li>
+                  <li class="main-navigation__item submenu">
+                    <a class="main-navigation__link" href="">Реабилитация</a>
+                    <ul class="main-navigation__submenu submenu__list">
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="">Название услуги</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="">Название услуги</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="">Название услуги</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="">Название услуги</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="">Название услуги</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="">Название услуги</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="">Название услуги</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="">Название услуги</a>
+                      </li>
+                      <li class="submenu__item">
+                        <a class="submenu__link" href="">Внимание-внимание! Очень длинное название услуги</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="main-navigation__item">
+                    <a class="main-navigation__link" href="">Цены</a>
+                  </li>
+                  <li class="main-navigation__item">
+                    <a class="main-navigation__link" href="">Контакты</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="header__mobile">
+            <div class="container">
+              <div class="header__wrapper">
+                <button class="header__burger" type="button" aria-label="Мобильное меню"></button>
+                <a class="header__mobile-logo mobile-logo" href="">
+                  <img src="assets/img/logo.png" width="44" height="44" alt="Логотип Городская Наркоклиника">
+                </a>
+                <button class="header__mobile-button button button--transparent popup-btn" type="button" data-path="popup__call">
+                  Вызвать врача
+                </button>
+                <a class="header__mobile-icon" href="tel:89999999999">
+                  <img src="assets/img/icons/menu-phone.svg" width="20" height="20" alt="Иконка телефона">
+                </a>
+              </div>
+              <div class="header__background">
+                <div class="header__menu">
+                  <a class="header__logo logo" href="">
+                    <img class="logo__img" src="assets/img/logo.png" alt="Логотип Городская Наркоклиника">
+                    <span class="logo__text">Городская Наркоклиника</span>
+                  </a>
+                  <button class="header__menu-close" type="button"></button>
+                  <div class="header__navigation main-navigation">
+                    <nav class="main-navigation__wrapper">
+                      <ul class="main-navigation__list">
+                        <li class="main-navigation__item submenu">
+                          <a class="main-navigation__link" href="">О нас</a>
+                          <ul class="main-navigation__submenu submenu__list">
+                            <li class="submenu__item">
+                              <a class="submenu__link" href="">Врачи</a>
+                            </li>
+                            <li class="submenu__item">
+                              <a class="submenu__link" href="">Лицензии и документы</a>
+                            </li>
+                            <li class="submenu__item">
+                              <a class="submenu__link" href="">Блог</a>
+                            </li>
+                            <li class="submenu__item">
+                              <a class="submenu__link" href="">Акции</a>
+                            </li>
+                            <li class="submenu__item">
+                              <a class="submenu__link" href="">Фотогалерея</a>
+                            </li>
+                            <li class="submenu__item">
+                              <a class="submenu__link" href="">Политика конфиденциальности</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="main-navigation__item submenu">
+                          <a class="main-navigation__link" href="">Вывод из запоя</a>
+                          <ul class="main-navigation__submenu submenu__list">
+                            <li class="submenu__item">
+                              <a class="submenu__link" href="">Название услуги</a>
+                            </li>
+                            <li class="submenu__item">
+                              <a class="submenu__link" href="">Название услуги</a>
+                            </li>
+                            <li class="submenu__item">
+                              <a class="submenu__link" href="">Название услуги</a>
+                            </li>
+                            <li class="submenu__item">
+                              <a class="submenu__link" href="">Название услуги</a>
+                            </li>
+                            <li class="submenu__item">
+                              <a class="submenu__link" href="">Название услуги</a>
+                            </li>
+                            <li class="submenu__item">
+                              <a class="submenu__link" href="">Внимание-внимание! Очень длинное название услуги</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="main-navigation__item submenu">
+                          <a class="main-navigation__link" href="">Нарколог на дом</a>
+                          <ul class="main-navigation__submenu submenu__list">
+                            <li class="submenu__item">
+                              <a class="submenu__link" href="">Название услуги</a>
+                            </li>
+                            <li class="submenu__item">
+                              <a class="submenu__link" href="">Название услуги</a>
+                            </li>
+                            <li class="submenu__item">
+                              <a class="submenu__link" href="">Название услуги</a>
+                            </li>
+                            <li class="submenu__item">
+                              <a class="submenu__link" href="">Название услуги</a>
+                            </li>
+                            <li class="submenu__item">
+                              <a class="submenu__link" href="">Название услуги</a>
+                            </li>
+                            <li class="submenu__item">
+                              <a class="submenu__link" href="">Внимание-внимание! Очень длинное название услуги</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="main-navigation__item submenu">
+                          <a class="main-navigation__link" href="">Лечение алкоголизма</a>
+                          <ul class="main-navigation__submenu submenu__list">
+                            <li class="submenu__item">
+                              <a class="submenu__link" href="">Название услуги</a>
+                            </li>
+                            <li class="submenu__item">
+                              <a class="submenu__link" href="">Название услуги</a>
+                            </li>
+                            <li class="submenu__item">
+                              <a class="submenu__link" href="">Название услуги</a>
+                            </li>
+                            <li class="submenu__item">
+                              <a class="submenu__link" href="">Название услуги</a>
+                            </li>
+                            <li class="submenu__item">
+                              <a class="submenu__link" href="">Название услуги</a>
+                            </li>
+                            <li class="submenu__item">
+                              <a class="submenu__link" href="">Внимание-внимание! Очень длинное название услуги</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="main-navigation__item submenu">
+                          <a class="main-navigation__link" href="">Кодирование</a>
+                          <ul class="main-navigation__submenu submenu__list">
+                            <li class="submenu__item">
+                              <a class="submenu__link" href="">Название услуги</a>
+                            </li>
+                            <li class="submenu__item">
+                              <a class="submenu__link" href="">Название услуги</a>
+                            </li>
+                            <li class="submenu__item">
+                              <a class="submenu__link" href="">Название услуги</a>
+                            </li>
+                            <li class="submenu__item">
+                              <a class="submenu__link" href="">Название услуги</a>
+                            </li>
+                            <li class="submenu__item">
+                              <a class="submenu__link" href="">Название услуги</a>
+                            </li>
+                            <li class="submenu__item">
+                              <a class="submenu__link" href="">Внимание-внимание! Очень длинное название услуги</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="main-navigation__item submenu">
+                          <a class="main-navigation__link" href="">Лечение наркомании</a>
+                          <ul class="main-navigation__submenu submenu__list">
+                            <li class="submenu__item">
+                              <a class="submenu__link" href="">Название услуги</a>
+                            </li>
+                            <li class="submenu__item">
+                              <a class="submenu__link" href="">Название услуги</a>
+                            </li>
+                            <li class="submenu__item">
+                              <a class="submenu__link" href="">Название услуги</a>
+                            </li>
+                            <li class="submenu__item">
+                              <a class="submenu__link" href="">Название услуги</a>
+                            </li>
+                            <li class="submenu__item">
+                              <a class="submenu__link" href="">Название услуги</a>
+                            </li>
+                            <li class="submenu__item">
+                              <a class="submenu__link" href="">Название услуги</a>
+                            </li>
+                            <li class="submenu__item">
+                              <a class="submenu__link" href="">Название услуги</a>
+                            </li>
+                            <li class="submenu__item">
+                              <a class="submenu__link" href="">Название услуги</a>
+                            </li>
+                            <li class="submenu__item">
+                              <a class="submenu__link" href="">Внимание-внимание! Очень длинное название услуги</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="main-navigation__item">
+                          <a class="main-navigation__link" href="">Реабилитация</a>
+                        </li>
+                        <li class="main-navigation__item">
+                          <a class="main-navigation__link" href="">Цены</a>
+                        </li>
+                        <li class="main-navigation__item">
+                          <a class="main-navigation__link" href="">Контакты</a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                  <div class="header__buttons">
+                    <button class="header__button button popup-btn" type="button" data-path="popup__call">
+                      Вызвать врача
+                    </button>
+                    <button class="header__button button button--transparent popup-btn" type="button" data-path="popup__call">
+                      Заказать услуги
+                    </button>
+                  </div>
+        
+                  <div class="header__contacts">
+                    <div class="header__flex">
+                      Круглосуточно, анонимно:
+                      <a class="header__phone" href="tel:89999999999">8 (999) 999-99-99</a>
+                      <a class="header__phone" href="tel:89999999999">8 (999) 999-99-99</a>
+                    </div>
+                    <div class="header__flex">
+                      Адрес call-центра:
+                      <div class="header__address">
+                        <button class="header__city-button popup-btn" data-path="cities">
+                          Новокузнецк,
+                        </button>
+                        <p class="header__street">ул. Красноармейская, д. 227</p>
+                      </div>
+                    </div>
+                    <div class="header__flex">
+                      Почта клиники:
+                      <a class="header__email" href="mailto:info@gor-narkoklinika.ru">info@gor-narkoklinika.ru</a>
+                    </div>
+                  </div>
+                  <div class="header__buttons-small">
+                    <button class="header__button button button--transparent button--small popup-btn" type="button"
+                      data-path="search">
+                      <svg class="header__icon" width="26" height="26" viewBox="0 0 26 26" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M10.334 3.28047C9.87187 3.34649 9.12031 3.53438 8.66836 3.68672C6.35781 4.49414 4.49414 6.35781 3.68672 8.66836C3.34141 9.67383 3.27539 10.0953 3.27539 11.375C3.27539 12.2992 3.2957 12.5988 3.37187 12.9492C3.91523 15.4578 5.39805 17.4281 7.61719 18.6063C9.45039 19.5711 11.832 19.7793 13.843 19.1445C14.5336 18.9262 15.468 18.459 16.0418 18.0527L16.5191 17.7125L18.9871 20.1754C20.343 21.5312 21.5059 22.6637 21.5668 22.6941C21.6277 22.7246 21.8004 22.75 21.9477 22.75C22.4402 22.75 22.75 22.4402 22.75 21.9477C22.75 21.8004 22.7246 21.6277 22.6941 21.5668C22.6637 21.5059 21.5312 20.343 20.1754 18.9871L17.7125 16.5191L18.0527 16.0418C18.459 15.468 18.9262 14.5336 19.1445 13.843C19.6422 12.2586 19.627 10.3695 19.0988 8.78516C18.3117 6.42891 16.4582 4.52969 14.1426 3.70703C13.1879 3.37188 12.7258 3.29063 11.5527 3.27539C10.9687 3.26524 10.4203 3.27031 10.334 3.28047ZM12.4922 5.00703C13.3961 5.16953 14.3508 5.56563 15.077 6.07852C15.5441 6.40859 16.2855 7.14492 16.6258 7.61211C17.418 8.71914 17.8242 9.98867 17.8242 11.375C17.8242 13.1676 17.1641 14.7266 15.8793 15.9809C15.3258 16.5191 14.8992 16.8289 14.2898 17.1387C13.3859 17.6008 12.4211 17.8293 11.375 17.8293C10.3289 17.8293 9.36406 17.6008 8.46016 17.1387C7.85078 16.8289 7.42422 16.5191 6.8707 15.9809C5.58594 14.7266 4.92578 13.1676 4.92578 11.375C4.92578 9.58242 5.58594 8.02344 6.8707 6.76914C7.41914 6.23594 7.85078 5.92109 8.45508 5.61133C9.69922 4.97656 11.1262 4.76328 12.4922 5.00703Z"
+                          fill="currentColor" />
+                      </svg>
+                    </button>
+                    <button class="header__button button button--transparent button--small" type="button" id="specialButton">
+                      <svg class="header__icon" width="24" height="18" viewBox="0 0 24 18" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M15.3006 9C15.3006 10.7753 13.8227 12.2143 11.9995 12.2143C10.1764 12.2143 8.69837 10.7753 8.69837 9C8.69837 7.22475 10.1764 5.78571 11.9995 5.78571C13.8227 5.78571 15.3006 7.22475 15.3006 9Z"
+                          stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path
+                          d="M12 1.5C7.07291 1.5 2.90218 4.65309 1.5 9C2.90216 13.3469 7.07291 16.5 12 16.5C16.927 16.5 21.0978 13.3469 22.5 9C21.0978 4.65312 16.927 1.5 12 1.5Z"
+                          stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>        <main class="main">
+            <section class="intro-small">
+              <div class="container">
+                <ul class="breadcrumbs">
+                  <li>
+                      <a href="/">Главная</a>
+                  </li>
+                  <li>FAQ</li>
+                </ul>
+                <h1 class="intro-small__title title title--secondary">Часто задаваемые вопросы и ответы</h1>
+                <p class="subtitle intro-small__subtitle">FAQ делится на вкладки, раскрывающие вопросы по разным темам</p>
+              </div>
+            </section>
+            
+            <section class="faq-page">
+              <div class="container">
+                <div class="faq-page__wrapper">
+                  <div>
+                    <div class="faq__tabs tabs services-tabs">
+                      <button type="button" class="faq__tab services-tab tab tab--active">🚑 Про выезд врача</button>
+                      <button type="button" class="faq__tab services-tab tab">💉 Про процедуры и препараты</button>
+                      <button type="button" class="faq__tab services-tab tab">🔒 Про оплату</button>
+                      <button type="button" class="faq__tab services-tab tab">🏥 Про стационар</button>
+                      <button type="button" class="faq__tab services-tab tab">👦 Для родственников</button>
+                      <button type="button" class="faq__tab services-tab tab">📄 Документы</button>
+                    </div>
+                    <button type="button" class="faq-page__button button popup-btn" data-path="popup__call">Задать вопрос</button>
+                  </div>
+            
+                  <div class="faq-page__flex">
+                    <div class="faq__list tab-content active">
+                      <details class="faq__question question" open>
+                        <summary class="question__title">Как быстро может приехать врач-нарколог на дом?</summary>
+                        <div class="question__content">
+                          <p>Врач выезжает в течение 30-60 минут после вашего звонка. В экстренных случаях время ожидания может быть сокращено до 20 минут. Врач выезжает в течение 30-60 минут после вашего звонка. В экстренных случаях время ожидания может быть сокращено до 20 минут.</p>
+                        </div>
+                      </details>
+            
+                      <details class="faq__question question">
+                        <summary class="question__title">В какое время можно вызвать врача на дом?</summary>
+                        <div class="question__content">
+                          <p>Ответ.</p>
+                        </div>
+                      </details>
+            
+                      <details class="faq__question question">
+                        <summary class="question__title">Какую территорию покрывает ваша служба выезда?</summary>
+                        <div class="question__content">
+                          <p>Ответ.</p>
+                        </div>
+                      </details>
+            
+                      <details class="faq__question question">
+                        <summary class="question__title">В какое время можно вызвать врача на дом?</summary>
+                        <div class="question__content">
+                          <p>Ответ.</p>
+                        </div>
+                      </details>
+            
+                      <details class="faq__question question">
+                        <summary class="question__title">В какое время можно вызвать врача на дом?</summary>
+                        <div class="question__content">
+                          <p>Ответ.</p>
+                        </div>
+                      </details>
+                    </div>
+            
+                    <div class="faq__list tab-content">
+                      <details class="faq__question question">
+                        <summary class="question__title">Как быстро может приехать врач-нарколог на дом?</summary>
+                        <div class="question__content">
+                          <p>Врач выезжает в течение 30-60 минут после вашего звонка. В экстренных случаях время ожидания может быть сокращено до 20 минут. Врач выезжает в течение 30-60 минут после вашего звонка. В экстренных случаях время ожидания может быть сокращено до 20 минут.</p>
+                        </div>
+                      </details>
+            
+                      <details class="faq__question question">
+                        <summary class="question__title">Тварь я дрожащая или право имею?</summary>
+                        <div class="question__content">
+                          <p>Ответ.</p>
+                        </div>
+                      </details>
+            
+                      <details class="faq__question question">
+                        <summary class="question__title">Какую территорию покрывает ваша служба выезда?</summary>
+                        <div class="question__content">
+                          <p>Ответ.</p>
+                        </div>
+                      </details>
+            
+                      <details class="faq__question question">
+                        <summary class="question__title">В какое время можно вызвать врача на дом?</summary>
+                        <div class="question__content">
+                          <p>Ответ.</p>
+                        </div>
+                      </details>
+            
+                      <details class="faq__question question">
+                        <summary class="question__title">В какое время можно вызвать врача на дом?</summary>
+                        <div class="question__content">
+                          <p>Ответ.</p>
+                        </div>
+                      </details>
+                    </div>
+            
+                    <div class="faq__list tab-content">
+                      <details class="faq__question question">
+                        <summary class="question__title">Как быстро может приехать врач-нарколог на дом?</summary>
+                        <div class="question__content">
+                          <p>Врач выезжает в течение 30-60 минут после вашего звонка. В экстренных случаях время ожидания может быть сокращено до 20 минут. Врач выезжает в течение 30-60 минут после вашего звонка. В экстренных случаях время ожидания может быть сокращено до 20 минут.</p>
+                        </div>
+                      </details>
+            
+                      <details class="faq__question question">
+                        <summary class="question__title">Быть или не быть?</summary>
+                        <div class="question__content">
+                          <p>Ответ.</p>
+                        </div>
+                      </details>
+            
+                      <details class="faq__question question">
+                        <summary class="question__title">Какую территорию покрывает ваша служба выезда?</summary>
+                        <div class="question__content">
+                          <p>Ответ.</p>
+                        </div>
+                      </details>
+            
+                      <details class="faq__question question">
+                        <summary class="question__title">В какое время можно вызвать врача на дом?</summary>
+                        <div class="question__content">
+                          <p>Ответ.</p>
+                        </div>
+                      </details>
+            
+                      <details class="faq__question question">
+                        <summary class="question__title">В какое время можно вызвать врача на дом?</summary>
+                        <div class="question__content">
+                          <p>Ответ.</p>
+                        </div>
+                      </details>
+                    </div>
+            
+                    <div class="faq__list tab-content">
+                      <details class="faq__question question">
+                        <summary class="question__title">Как быстро может приехать врач-нарколог на дом?</summary>
+                        <div class="question__content">
+                          <p>Врач выезжает в течение 30-60 минут после вашего звонка. В экстренных случаях время ожидания может быть сокращено до 20 минут. Врач выезжает в течение 30-60 минут после вашего звонка. В экстренных случаях время ожидания может быть сокращено до 20 минут.</p>
+                        </div>
+                      </details>
+            
+                      <details class="faq__question question">
+                        <summary class="question__title">Кто виноват и что делать?</summary>
+                        <div class="question__content">
+                          <p>Ответ.</p>
+                        </div>
+                      </details>
+            
+                      <details class="faq__question question">
+                        <summary class="question__title">Какую территорию покрывает ваша служба выезда?</summary>
+                        <div class="question__content">
+                          <p>Ответ.</p>
+                        </div>
+                      </details>
+            
+                      <details class="faq__question question">
+                        <summary class="question__title">В какое время можно вызвать врача на дом?</summary>
+                        <div class="question__content">
+                          <p>Ответ.</p>
+                        </div>
+                      </details>
+            
+                      <details class="faq__question question">
+                        <summary class="question__title">В какое время можно вызвать врача на дом?</summary>
+                        <div class="question__content">
+                          <p>Ответ.</p>
+                        </div>
+                      </details>
+                    </div>
+            
+                    <div class="faq__list tab-content">
+                      <details class="faq__question question">
+                        <summary class="question__title">Как быстро может приехать врач-нарколог на дом?</summary>
+                        <div class="question__content">
+                          <p>Врач выезжает в течение 30-60 минут после вашего звонка. В экстренных случаях время ожидания может быть сокращено до 20 минут. Врач выезжает в течение 30-60 минут после вашего звонка. В экстренных случаях время ожидания может быть сокращено до 20 минут.</p>
+                        </div>
+                      </details>
+            
+                      <details class="faq__question question">
+                        <summary class="question__title">А судьи кто?</summary>
+                        <div class="question__content">
+                          <p>Ответ.</p>
+                        </div>
+                      </details>
+            
+                      <details class="faq__question question">
+                        <summary class="question__title">Какую территорию покрывает ваша служба выезда?</summary>
+                        <div class="question__content">
+                          <p>Ответ.</p>
+                        </div>
+                      </details>
+            
+                      <details class="faq__question question">
+                        <summary class="question__title">В какое время можно вызвать врача на дом?</summary>
+                        <div class="question__content">
+                          <p>Ответ.</p>
+                        </div>
+                      </details>
+            
+                      <details class="faq__question question">
+                        <summary class="question__title">В какое время можно вызвать врача на дом?</summary>
+                        <div class="question__content">
+                          <p>Ответ.</p>
+                        </div>
+                      </details>
+                    </div>
+            
+                    <div class="faq__list tab-content">
+                      <details class="faq__question question">
+                        <summary class="question__title">Как быстро может приехать врач-нарколог на дом?</summary>
+                        <div class="question__content">
+                          <p>Врач выезжает в течение 30-60 минут после вашего звонка. В экстренных случаях время ожидания может быть сокращено до 20 минут. Врач выезжает в течение 30-60 минут после вашего звонка. В экстренных случаях время ожидания может быть сокращено до 20 минут.</p>
+                        </div>
+                      </details>
+            
+                      <details class="faq__question question">
+                        <summary class="question__title">Что вы плачете здесь, одинокая глупая деточка?</summary>
+                        <div class="question__content">
+                          <p>Ответ.</p>
+                        </div>
+                      </details>
+            
+                      <details class="faq__question question">
+                        <summary class="question__title">Какую территорию покрывает ваша служба выезда?</summary>
+                        <div class="question__content">
+                          <p>Ответ.</p>
+                        </div>
+                      </details>
+            
+                      <details class="faq__question question">
+                        <summary class="question__title">В какое время можно вызвать врача на дом?</summary>
+                        <div class="question__content">
+                          <p>Ответ.</p>
+                        </div>
+                      </details>
+            
+                      <details class="faq__question question">
+                        <summary class="question__title">В какое время можно вызвать врача на дом?</summary>
+                        <div class="question__content">
+                          <p>Ответ.</p>
+                        </div>
+                      </details>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="contacts">
+              <div class="container">
+                <div class="contacts__title title--secondary">Контакты и зона выезда</div>
+                  <ul class="contacts__list">
+                    <li class="contacts__item">
+                      <p>Круглосуточный телефон</p>
+                      <a class="contacts__phone" href="tel:+73845555555">+7 (384) 555-55-55</a>
+                    </li>
+                    <li class="contacts__item">
+                      <p>Адрес клиники</p>
+                      <address><span>г. Новокузнецк, ул. Кирова, 53 (район центральной площади)</span></address>
+                    </li>
+                    <li class="contacts__item">
+                      <p>Режим работы</p>
+                      <span>Круглосуточно, без выходных<br>Выезд врача 24/7</span>
+                    </li>
+                 </ul>
+                <div id="map__container" class="contacts__map">
+                  <div id="map" style="width: 100%; height: 100%;"></div>
+                  <div class="contacts__plashka">Зона обслуживания ~40 км от Новокузнецка</div>
+                </div>
+                <div class="contacts__wrapper">
+                  <p class="contacts__subtitle">Где бы вы ни находились — врач «Городской Наркологии» <span>приедет туда,  где нужна помощь.</span></p>
+                  <div class="contacts__flex">
+                    <p>Мы выезжаем в:</p>
+                    <ul class="list-check">
+                      <li class="list-check__item">Весь Новокузнецк — от Центрального до Заводского района</li>
+                      <li class="list-check__item">Белово, Прокопьевск, Осинники, Калтан</li>
+                      <li class="list-check__item">Близлежащие посёлки в радиусе до 40 км</li>
+                    </ul>
+                  </div>
+                  <div class="contacts__flex">
+                    <p>Почему это удобно:</p>
+                    <ul class="list-check">
+                      <li class="list-check__item">Быстрая подача врача к пациенту</li>
+                      <li class="list-check__item">Анонимность и конфиденциальность</li>
+                      <li class="list-check__item">Профессиональная медицинская помощь</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </section>        </main>
+        <footer class="footer">
+            <div class="container">
+              <div class="footer__wrapper">
+                <div class="footer__flex">
+                  <a href="" class="footer__logo logo">
+                      <img class="logo__img" src="assets/img/logo.png" width="50" height="50" alt="Логотип Городская Наркоклиника">
+                      <span class="logo__text">Городская Наркоклиника</span>
+                  </a>
+                    <div class="footer__flex-phone">
+                      <p>Круглосуточный телефон</p>
+                      <a class="footer__phone" href="tel:+73845555555">+7 (384) 555-55-55</a>
+                    </div>
+                  <form class="footer__form" method="post">
+                    <label class="label">
+                      <input class="form__input input" type="text" name="name" placeholder="Введите ваше имя" required>
+                    </label>
+                    <label class="label">
+                      <input class="form__input input" type="tel" name="tel" placeholder="+7 (___) ___-__-__" required>
+                    </label>
+                    <button class="button" type="submit">Отправить заявку</button>
+                    <label class="label">
+                      <input type="checkbox" name="agree" checked>Я согласен на обработку персональных данных и политикой конфиденциальности
+                    </label>
+                  </form>
+                  <div class="footer__flex-pay pay">
+                    <p class="pay__title">Способы оплаты:</p>
+                    <ul class="pay__list">
+                      <li class="pay__item">
+                        <img src="assets/img/icons/pay-cash.svg" width="16" height="16" alt="Иконка наличне" loading="lazy">
+                        <span>Наличные</span>
+                      </li>
+                      <li class="pay__item">
+                        <img src="assets/img/icons/pay-card.svg" width="16" height="16" alt="Иконка карта" loading="lazy">
+                        <span>Карты</span>
+                      </li>
+                      <li class="pay__item">
+                        <img src="assets/img/icons/pay-transfer.svg" width="16" height="16" alt="Иконка перевод" loading="lazy">
+                        <span>Перевод</span>
+                      </li>
+                      <li class="pay__item">
+                        <img src="assets/img/icons/pay-qr.svg" width="16" height="16" alt="Иконка qr" loading="lazy">
+                        <span>QR-код</span>
+                      </li>
+                      <li class="pay__item">
+                        <img src="assets/img/icons/pay-credit.svg" width="16" height="16" alt="Иконка рассрочка" loading="lazy">
+                        <span>Рассрочка</span>
+                      </li>
+                      <li class="pay__item">
+                        <img src="assets/img/icons/pay-spb.svg" width="16" height="16" alt="Иконка СПБ" loading="lazy">
+                        <span>СБП</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="socials">
+                    <ul class="socials__list">
+                      <li class="socials__item">
+                        <a class="socials__link" href="#">
+                          <img src="assets/img/icons/socials-ok.svg" width="22" height="22" alt="Иконка Одноклассники" loading="lazy">
+                        </a>
+                      </li>
+                      <li class="socials__item">
+                        <a class="socials__link" href="#">
+                          <img src="assets/img/icons/socials-vk.svg" width="22" height="22" alt="Иконка Вконтакте" loading="lazy">
+                        </a>
+                      </li>
+                      <li class="socials__item">
+                        <a class="socials__link" href="#">
+                          <img src="assets/img/icons/socials-tg.svg" width="22" height="22" alt="Иконка Телеграм" loading="lazy">
+                        </a>
+                      </li>
+                      <li class="socials__item">
+                        <a class="socials__link" href="#">
+                          <img src="assets/img/icons/socials-dzen.svg" width="22" height="22" alt="Иконка Дзен" loading="lazy">
+                        </a>
+                      </li>
+                      <li class="socials__item">
+                        <a class="socials__link" href="#">
+                          <img src="assets/img/icons/socials-youtube.svg" width="22" height="22" alt="Иконка Ютюб" loading="lazy">
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+        
+                <div class="footer__flex--nav">
+                  <nav class="footer__services footer-services">
+                    <div class="footer-services__title">Популярные услуги</div>
+                    <ul class="footer-services__list">
+                      <li class="footer-services__item">
+                        <a href="">Капельница от запоя</a>
+                      </li>
+                      <li class="footer-services__item">
+                        <a href="#">Капельница от запоя</a>
+                      </li>
+                      <li class="footer-services__item">
+                        <a href="#">Вывод из запоя на дому</a>
+                      </li>
+                      <li class="footer-services__item">
+                        <a href="#">Вывод из запоя на дому</a>
+                      </li>
+                      <li class="footer-services__item">
+                        <a href="#">Вывод из запоя на дому</a>
+                      </li>
+                      <li class="footer-services__item">
+                        <a href="">Капельница от запоя</a>
+                      </li>
+                      <li class="footer-services__item">
+                        <a href="#">Капельница от запоя</a>
+                      </li>
+                      <li class="footer-services__item">
+                        <a href="#">Вывод из запоя на дому</a>
+                      </li>
+                      <li class="footer-services__item">
+                        <a href="#">Вывод из запоя на дому</a>
+                      </li>
+                      <li class="footer-services__item">
+                        <a href="">Капельница от запоя</a>
+                      </li>
+                      <li class="footer-services__item">
+                        <a href="#">Капельница от запоя</a>
+                      </li>
+                      <li class="footer-services__item">
+                        <a href="#">Вывод из запоя на дому</a>
+                      </li>
+                      <li class="footer-services__item">
+                        <a href="#">Вывод из запоя на дому</a>
+                      </li>
+                      <li class="footer-services__item">
+                        <a href="#">Вывод из запоя на дому</a>
+                      </li>
+                      <li class="footer-services__item">
+                        <a href="">Капельница от запоя</a>
+                      </li>
+                      <li class="footer-services__item">
+                        <a href="#">Капельница от запоя</a>
+                      </li>
+                      <li class="footer-services__item">
+                        <a href="#">Вывод из запоя на дому</a>
+                      </li>
+                      <li class="footer-services__item">
+                        <a href="#">Вывод из запоя на дому</a>
+                      </li>
+                      <li class="footer-services__item">
+                        <a href="">Капельница от запоя</a>
+                      </li>
+                      <li class="footer-services__item">
+                        <a href="#">Капельница от запоя</a>
+                      </li>
+                      <li class="footer-services__item">
+                        <a href="#">Вывод из запоя на дому</a>
+                      </li>
+                      <li class="footer-services__item">
+                        <a href="#">Вывод из запоя на дому</a>
+                      </li>
+                      <li class="footer-services__item">
+                        <a href="#">Вывод из запоя на дому</a>
+                      </li>
+                      <li class="footer-services__item">
+                        <a href="">Капельница от запоя</a>
+                      </li>
+                      <li class="footer-services__item">
+                        <a href="#">Капельница от запоя</a>
+                      </li>
+                      <li class="footer-services__item">
+                        <a href="#">Вывод из запоя на дому</a>
+                      </li>
+                      <li class="footer-services__item">
+                        <a href="#">Вывод из запоя на дому</a>
+                      </li>
+                      <li class="footer-services__item">
+                        <a href="">Капельница от запоя</a>
+                      </li>
+                      <li class="footer-services__item">
+                        <a href="#">Капельница от запоя</a>
+                      </li>
+                      <li class="footer-services__item">
+                        <a href="#">Вывод из запоя на дому</a>
+                      </li>
+                      <li class="footer-services__item">
+                        <a href="#">Вывод из запоя на дому</a>
+                      </li>
+                      <li class="footer-services__item">
+                        <a href="#">Вывод из запоя на дому</a>
+                      </li>
+                      <li class="footer-services__item">
+                        <a href="">Капельница от запоя</a>
+                      </li>
+                      <li class="footer-services__item">
+                        <a href="#">Капельница от запоя</a>
+                      </li>
+                      <li class="footer-services__item">
+                        <a href="#">Вывод из запоя на дому</a>
+                      </li>
+                      <li class="footer-services__item">
+                        <a href="#">Вывод из запоя на дому</a>
+                      </li>
+                    </ul>
+                  </nav>
+        
+                  <nav class="footer-navigation">
+                    <div class="footer-navigation__title">О клинике</div>
+                    <ul class="footer-navigation__list">
+                      <li class="footer-navigation__item">
+                        <a href="service.html">О нас</a>
+                      </li>
+                      <li class="footer-navigation__item">
+                        <a href="#">Наши специалисты</a>
+                      </li>
+                      <li class="footer-navigation__item">
+                        <a href="#">Лицензии</a>
+                      </li>
+                      <li class="footer-navigation__item">
+                        <a href="#">Юридическая информация</a>
+                      </li>
+                      <li class="footer-navigation__item">
+                        <a href="#">Отзывы</a>
+                      </li>
+                      <li class="footer-navigation__item">
+                        <a href="#">Блог</a>
+                      </li>
+                      <li class="footer-navigation__item">
+                        <a href="#">Контакты</a>
+                      </li>
+                      <li class="footer-navigation__item">
+                        <a href="#">Карта сайта</a>
+                      </li>
+                    </ul>
+        
+                    <p>График работ:</p>
+                    <span>Круглосуточно, без выходных. Выезд врача 24/7</span>
+        
+                    <p>График работ:</p>
+                    <address><span>г. Новокузнецк, ул. Кирова, 53 (район центральной площади)</span></address>
+        
+                    <div class="footer-navigation__docs">
+                      <p>ООО «Городская Наркоклиника»</p>
+                      <p>ИНН 2312268085</p>
+                      <p>ОГРН 1182375001511</p>
+                      <p>Лицензия: Л041-01177-91/00561129</p>
+                    </div>
+                  </nav>
+                </div>
+              </div>
+              <div class="footer__bottom">
+                <p>Вся информация на сайте не является публичной офертой, несёт сугубо информационный характер, и не служит для постановки диагноза и назначения лечения</p>
+                <p class="footer__bottom-copy">Все права защищены © 2023 renessans.org.ru</p>
+              </div>
+            </div>
+          </footer> 
+        
+        
+            <div class="popup" data-target="popup__call"> 
+              <div class="popup__body">
+                <div class="popup__content">
+                  <button class="popup__close" aria-label="Закрыть форму"></button>
+                  <p class="popup__title title--secondary">Оставьте заявку на&nbsp;получение консультации</p>
+                  <p class="popup__subtitle subtitle">Оставьте свои данные, наш специалист вам перезвонит.</p>
+                  <form class="form" method="post">
+                    <label class="form__label">
+                      <input class="form__input input" type="text" name="name" placeholder="Введите ваше имя" required>
+                    </label>
+                    <label class="form__label">
+                      <input class="form__input input" type="tel" name="tel" placeholder="+7 (___) ___-__-__" required>
+                    </label>
+                    <label class="form__label">
+                      <button class="form__button button" type="submit">Отправить</button>
+                    </label>
+                    <label class="form__label form__label--agree">
+                      <input class="checkbox" type="checkbox" name="agree" checked>
+                      <span class="form__agree">Я согласен на обработку персональных данных и политикой конфиденциальности</span>
+                    </label>
+                  </form>
+                </div>
+              </div>
+            </div>
+        
+            <div class="popup popup-responce" data-modal-ok="result-wrapper" data-modal-open="open active">
+              <div class="popup__body">
+                <div class="popup__content">
+                  <button class="popup__close" aria-label="Закрыть форму"></button>
+                  <p class="popup__title title--secondary">Заявка принята</p>
+                  <p class="popup__subtitle subtitle">Спасибо! Мы свяжемся с Вами в ближайшее время</p>
+                  <button class="button button__ok" type="button">Хорошо</button>
+                </div>
+              </div>
+            </div>
+        
+            <div class="popup popup-responce" data-modal-err="result-wrapper" data-modal-open="open active">
+              <div class="popup__body">
+                <div class="popup__content">
+                  <button class="popup__close" aria-label="Закрыть форму"></button>
+                  <p class="popup__title title--secondary">Ошибка отправки!</p>
+                  <p class="popup__subtitle subtitle">Возникли технические шоколадки, отправьте форму еще раз</p>
+                  <button class="button button__ok" type="button">Назад</button>
+                </div>
+              </div>
+            </div>
+            
+            <div class="popup popup--search" data-target="search"> 
+              <div class="popup__body">
+                <div class="popup__content">
+                  <div class="popup__mobile">
+                    <a class="logo" href="">
+                      <img src="assets/img/logo.png" width="34" height="34" alt="Логотип Городская Наркоклиника">
+                      <span class="logo__text">Городская Наркоклиника</span>
+                    </a>
+                  </div>
+                  <button class="popup__close" aria-label="Закрыть форму"></button>
+                  <p class="popup__title title--secondary">Поиск по сайту</p>
+                  <form class="form">
+                    <label class="form__label">
+                      <input type="search" placeholder="Поиск" required class="search__input input">  
+                    </label>
+                  </form>
+                  <ul class="form__list list-services">
+                      <li class="list-services__item"><a href="#">Вывод из запоя в стационаре</a></li>
+                      <li class="list-services__item"><a href="#">Тут ссылка</a></li>
+                      <li class="list-services__item"><a href="#">Тут ссылка</a></li>
+                      <li class="list-services__item"><a href="#">Тут ссылка</a></li>
+                      <li class="list-services__item"><a href="#">Тут ссылка</a></li>
+                      <li class="list-services__item"><a href="#">Тут ссылка</a></li>
+                      <li class="list-services__item"><a href="#">Тут ссылка</a></li>
+                      <li class="list-services__item"><a href="#">Тут ссылка</a></li>
+                      <li class="list-services__item"><a href="#">Тут ссылка</a></li>
+                      <li class="list-services__item"><a href="#">Тут ссылка</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        
+            <div class="popup popup--cities" data-target="cities"> 
+              <div class="popup__body">
+                <div class="popup__content">
+                  <div class="popup__mobile">
+                    <a class="logo" href="">
+                      <img src="assets/img/logo.png" width="34" height="34" alt="Логотип Городская Наркоклиника">
+                      <span class="logo__text">Городская Наркоклиника</span>
+                    </a>
+                  </div>
+                  <button class="popup__close" aria-label="Закрыть форму"></button>
+                  <p class="popup__title title--secondary">
+                      Выберите город</p>
+                  <form class="form">
+                    <label class="form__label">
+                      <input type="search" placeholder="Поиск" required class="search__input input">  
+                    </label>
+                  </form>
+                  <ul class="popup__city-list">
+                    <li class="popup__city-item">
+                        <a href="#" class="search-name">Москва</a>
+                    </li>
+                    <li class="popup__city-item">
+                        <a href="#" class="search-name">Москва</a>
+                    </li>
+                    <li class="popup__city-item">
+                        <a href="#" class="search-name">Москва</a>
+                    </li>
+                    <li class="popup__city-item">
+                        <a href="#" class="search-name">Москва</a>
+                    </li>
+                    <li class="popup__city-item">
+                        <a href="#" class="search-name">Москва</a>
+                    </li>
+                    <li class="popup__city-item">
+                        <a href="#" class="search-name">Москва</a>
+                    </li>
+                    <li class="popup__city-item">
+                        <a href="#" class="search-name">Мурманск</a>
+                    </li>
+                    <li class="popup__city-item">
+                        <a href="#" class="search-name">Воронеж</a>
+                    </li>
+                    <li class="popup__city-item">
+                        <a href="#" class="search-name">Москва</a>
+                    </li>
+                    <li class="popup__city-item">
+                        <a href="#" class="search-name">Москва</a>
+                    </li>
+                    <li class="popup__city-item">
+                        <a href="#" class="search-name">Воронеж</a>
+                    </li>
+                    <li class="popup__city-item">
+                        <a href="#" class="search-name">Москва</a>
+                    </li>
+                    <li class="popup__city-item">
+                        <a href="#" class="search-name">Москва</a>
+                    </li>
+                    <li class="popup__city-item">
+                        <a href="#" class="search-name">Воронеж</a>
+                    </li>
+                    <li class="popup__city-item">
+                        <a href="#" class="search-name">Москва</a>
+                    </li>
+                    <li class="popup__city-item">
+                        <a href="#" class="search-name">Москва</a>
+                    </li>
+                    <li class="popup__city-item">
+                        <a href="#" class="search-name">Воронеж</a>
+                    </li>
+                    <li class="popup__city-item">
+                        <a href="#" class="search-name">Москва</a>
+                    </li>
+                    <li class="popup__city-item">
+                        <a href="#" class="search-name">Москва</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <button class="scroll-top" type="button" aria-label="Скролл наверх"></button>
+        
+                </div>
+    <script src="/assets/js/build/fancybox.min.js" defer></script>
+    <script src="/assets/js/build/swiper-bundle.min.js" defer></script>
+    <script src="/assets/js/sourcebuster.min.js" defer></script>
+    <script src="/assets/js/request.js" defer></script>
+    <script src="/assets/js/main.js" defer></script>
+</body>
+
+</html>
